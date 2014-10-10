@@ -16,28 +16,7 @@ def coded_triangle
   end
 
   # Check each word to see if it's a coded triangle word
-  words_counter = 0
-  # translation = {
-  #   "A" => 1,
-  #   "B" => 1,
-  #   "C" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
-  #   "A" => 1,
 
-  # }
   words.each do |word|
     counter = 0
     word.each_byte do |letter|
